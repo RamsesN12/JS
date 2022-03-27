@@ -1,0 +1,68 @@
+.pokedex_fondo {background-image:url(https://th.bing.com/th/id/R.3c2eab4a8d335bed746bc712b5716457?rik=CIGLtyQdnGYuNg&riu=http%3a%2f%2fpokemongo.vn%2fwp-content%2fuploads%2f2015%2f10%2fpokedex-578x420.png&ehk=s3UxBxiWm08%2ffNSCNPxNW1L%2bph7CNHCKVGv6Cb%2fq52w%3d&risl=&pid=ImgRaw&r=0);
+background-repeat: no-repeat;
+background-size: 800px 700px;}
+
+.contenedor {width: 900px; height: 800px;}
+.imagen{margin-top: 200px; margin-left: 130px;}
+.boton{ position: relative;
+top: 150px;
+left: 110px;
+background-color: blue;
+color: aliceblue;
+border-radius: 1rem;}
+
+.img_desplazada {
+    position: relative;
+    top: 8em;
+    
+  }
+
+.nombre{position: relative;
+    top: -20px;
+    left: 180px;
+}
+
+.stat{ position: relative;
+    top: -220px;
+    left: 500px;
+    color: blanchedalmond;
+
+}
+
+.habilidades{position: relative;
+    top: -250px;
+    left: 500px;
+    color: blanchedalmond;
+
+}
+
+.type{position: relative;
+    top: -280px;
+    left: 500px;
+    color: blanchedalmond;
+}
+  
+.animaPokemon{
+    animation: pokemon 5s infinite;
+}
+
+@keyframes pokemon {
+    0%{
+        transform: translateX(0.5px);
+    }
+    30%{
+        transform: translateX(0) rotate(2deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: translateX(-2px);
+    }
+}
+
+ 
+  
